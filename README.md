@@ -17,3 +17,5 @@ Developed For ICE Subject Assigment
 - Obstacle Detection via Ultrasonic Sensor
 - Debug Output via Serial Monitor
 - Optional Buzzer + LED feedback
+  
+<img width="378" height="535" alt="image" src="https://github.com/user-attachments/assets/8c5dcbbb-6a62-4a74-a449-edcc2c53699e" />
