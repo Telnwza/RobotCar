@@ -1,3 +1,9 @@
+/*
+Source code ROBOT CAR ICE
+จิตราพร จันทร์เกตุ 68010143
+เตชินท์  เจริญสุข  68010403
+*/
+
 #include "Arduino.h"
 
 //Note freq
@@ -463,87 +469,3 @@ void setup(){
 void loop(){
 
 }
-
-// void path1(){
-//   while(!isAtRC(0,5)) handleGo(0,0); //checkpoint
-//   stop();
-//   beep(2); delay(3000);
-
-//   while(isAtRC(0,5)) handleGo(0,0);
-
-//   //push box
-//   while(!isAtRC(1,2)) handleGo(1,0);
-//   pushD(1);
-//   rotateTo(EAST);
-//   while(!isAtRC(3,1)) handleGo(1,0);
-//   pushR(1);
-//   rotateTo(SOUTH);
-//   while(!isAtRC(4,3)) handleGo(1,1);
-//   pushU(2);
-//   rotateTo(WEST);
-//   while(!isAtRC(1,2)) handleGo(1,0);
-//   pushR(1);
-
-//   setCellRC(2,4,OBST);
-//   setCellRC(4,4,OBST);
-//   setCellRC(5,2,OBST);
-//   setCellRC(3,0,OBST);
-
-//   //back home
-//   while(!isAtRC(4,1)) handleGo(1,1);
-//   while(!isAtRC(5,0)) handleGo(0,1); //home
-// }
-
-// while(isbacktostart == 0){
-//     if (isAtRC(0,5) && ischeck == 0) {
-//       stop();
-//       beep(2); delay(3000);
-//       Serial.println("At Checkpoint");
-//       ischeck = 1;
-//     }
-//     if (isAtRC(5,0) && ischeck == 1) {
-//       stop();
-//       beep(3); delay(3000);
-//       Serial.println("Back to Start");
-//       isbacktostart = 1;
-//       break;
-//     }
-//     handleGo(0,0);
-//   }
-
- // if((grid[1][0]==OBST || grid[2][0]==OBST || grid[3][0]==OBST)
-  // && (grid[0][1]==OBST || grid[0][2]==OBST || grid[0][3]==OBST))
-  // {
-  //   rotateTo(EAST);
-  //   while(!isAtRC(1,2)) handleGo(1,1);
-  //   pushD(1);
-  //   rotateTo(EAST);
-  //   while(!isAtRC(3,1)) handleGo(1,0);
-  //   pushR(1);
-  //   rotateTo(SOUTH);
-  //   while(!isAtRC(4,3)) handleGo(1,1);
-  //   pushU(2);
-  //   rotateTo(WEST);
-  //   while(!isAtRC(1,2)) handleGo(1,0);
-  //   pushR(1);
-  // }else if(grid[0][1]==OBST || grid[0][2]==OBST || grid[0][3]==OBST){
-  //   pushU(1);
-  //   rotateTo(SOUTH);
-  //   while(!isAtRC(1,1)) handleGo(0,0);
-  //   pushR(2);
-  // }else {
-  //   pushU(1);
-  //   rotateTo(EAST);
-  //   while(!isAtRC(1,1)) handleGo(0,1);
-  //   pushR(2);
-  // }
-
-  // if(grid[5][1]==OBST){
-  //   rotateTo(NORTH);
-  //   goOneCell();
-  //   rotateTo(EA©©ST);
-  //   goOneCell();
-  // }else {
-  //   rotateTo(EAST);
-  //   goOneCell();
-  // }
